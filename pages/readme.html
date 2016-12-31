@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+		<title>我们谈一场七天就分手的恋爱好吗？</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="../resources/plugins/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="../resources/plugins/weui/dist/style/weui.css" rel="stylesheet"/>
+	    <link href="../resources/css/common/base.css" rel="stylesheet"/>
+	    <link href="../resources/css/index.css" rel="stylesheet"/>
+	</head>
+	<body class="red-bg">
+		<div class="pl30 pr30 pt30">
+			<!--小盒子-->
+			<div class="signSuc-msg">
+				<div class="signSuc-msg-border">
+					<div class="font40 text-center gray666-text">房客须知</div>
+				</div>
+			</div>
+			<!--/小盒子-->
+			<div class="white-text mt30 font16">
+				<p>1.我是<span class="text-underline gray333-text">单身</span></p>
+				<p>2.即使我很忙，也会每天抽出半小时完成CP任务，<span class="text-underline gray333-text">不无故退出</span></p>
+				<p>3.即使CP不是我的理想型，我也会像对待朋友一样<span class="text-underline gray333-text">尊重我的CP</span></p>
+				<p class="mt30 mb30">在60亿人中组成CP是多么大的缘分，在未来的一周，我将尊重CP，关爱CP，像爱我自己一样。<span class="text-underline gray333-text">不论CP颜值是高是低，高冷还是逗比，始终不离不弃，直到一周结束。</span></p>
+				<p class="text-center font14">以上真的很重要，请务必确认自己能做到后再参加<br>违反约定会被拉入黑名单，近期不能参加其他活动</p>
+			</div>
+		</div>
+		<div class="text-center mt20">
+			<div style="width: 70%; margin: auto;">
+				<input type="text" class="input-lg form-control" placeholder="点击输入‘我承诺’表示同意" />
+				<button class="btn btn-warning btn-lg mt20 btn-block" id="submit">确认</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="../resources/plugins/jquery/dist/jquery.min.js" ></script>
+		<script type="text/javascript" src="../resources/js/artDialog-config.js"></script>
+		<script>
+			$(function(){
+				$('#submit').on('click',function(){
+					artdialog.alert('提交成功！');
+				});
+			}());
+		</script>
+	</body>
+</html>

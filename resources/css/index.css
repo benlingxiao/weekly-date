@@ -1,0 +1,112 @@
+body,
+html {
+	height: 100%;
+	-webkit-tap-highlight-color: transparent
+}
+
+ul {
+	list-style: none
+}
+
+.page,
+body {
+	background-color: #f8f8f8
+}
+
+.link {
+	color: #1aad19
+}
+
+.container {
+	overflow: hidden
+}
+
+.container,
+.page {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0
+}
+
+.page_hd {
+	padding: 40px
+}
+
+.page_ft {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	text-align: center
+}
+
+.page_title {
+	text-align: left;
+	font-size: 20px;
+	font-weight: 400
+}
+
+.page_desc {
+	margin-top: 5px;
+	color: #888;
+	text-align: left;
+	font-size: 14px
+}
+
+/*
+ * 报名成功页
+ * */
+.red-bg{
+	background: #ec7674;
+}
+/*标题*/
+.signSuc-title{
+	color: #fff;
+	margin: 30px 0 20px 0;
+	font-size: 40px;
+	font-weight: normal;
+}
+/*概率*/
+.signSuc-gl{
+	font-size: 60px;
+	font-weight: normal;
+	color: #666;
+}
+/*提示框*/
+.signSuc-msg{
+	border: 8px solid #fff;
+	border-radius: 18px;
+}
+.signSuc-msg-border{
+	background: #fff;
+	border-radius: 10px;
+	border: 4px solid #666;
+	box-shadow: 0px 0px 15px #fff;
+	padding: 0 20px;
+}
+/*细边框的提示框*/
+.msg-thin-border{
+	border-width: 3px;
+	border-radius: 14px;
+}
+.msg-thin-border>.signSuc-msg-border{
+	border-width: 3px;
+}
+/*提示中的标题*/
+.signSuc-msg-title{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+/**
+ * 匹配成功
+ */
+.matchSuc-box{
+	color: #fff;
+	padding-top: 30px;
+	border-bottom: 1px solid #fff;
+}
+/*房客须知的下划线标注内容*/
+.text-underline{
+	text-decoration: underline;
+}
